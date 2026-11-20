@@ -1,0 +1,23 @@
+{
+  "name": "arquitectura-software-proyecto-integrador-semana-5-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proyecto integrador didáctico de Arquitectura de Software, versión JavaScript",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^5.0.0",
+    "pg": "^8.13.0"
+  },
+  "type": "module"
+}
